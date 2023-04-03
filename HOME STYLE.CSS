@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    background-image: url(IMAGES/SOCIAL\ MEDIA\ MANAGEMENT.jpg);
+    background-size: contain;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .main{
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    height:auto;
+}
+  .kelvin{
+    overflow: hidden;
+    background-color: #f50d0d;
+  }
+  .logo{
+    width: auto;
+    height: auto;
+    background-color: blue;
+    top: 0%;
+    background-image: none;
+  }
+  .kelvin a {
+      float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 29px;
+    text-decoration: none;
+    font-size: 17px;
+    text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+  }
+.kelvin span{
+  color: blue;
+}
+  .slider {
+    width: 100%;
+    height: 900px;
+   overflow: hidden;
+  }
+  .slide {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    opacity: 0;
+    transition: opacity 98s ease-in-out;
+  } 
+  .slider .slide {
+    animation: slide 1s linear infinite;
+  }
+  @keyframes slide {
+    140% {
+      opacity: 0;
+    }
+    200% {
+      opacity: 9;
+    }
+    0% {
+      opacity: 1;
+    }
+    150% {
+      opacity: 0;
+    }
+  }
+  .sidebar {
+    width: 200px;
+    position: absolute;
+    top: 76.5%;
+    right: 0;
+    height: 87%;
+    padding: 0;
+  }
+  .sidebar img{
+    width: 200px;
+    height: auto;
+    opacity: 100%;
+  }
+  footer {
+    background-color:maroon ;
+    color: #fff;
+    padding: auto;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+   
+  }
+  .murigi {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-weight: bold;
+  }
+  p {
+    margin: 0;
+  }
+
+
+  
+  
